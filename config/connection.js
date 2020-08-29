@@ -1,12 +1,9 @@
 // Set up MySQL connection.
 var mysql = require("mysql");
 
-var connection;
-
-if (process.env.JAWSDB_URL) {
-    connection = mysql.createConnection(process.env.JAWSDB_URL);
-} else {
-    connection = mysql.createConnection({
+var connection = null;
+if(typeof process.env.JAWSDB_URL === 'undefined'){
+  connection = mysql.createConnection({
         host: "localhost", //change host if needed
         port: 3306, //change port number if needed
         user: "root", //enter in your mysql username
