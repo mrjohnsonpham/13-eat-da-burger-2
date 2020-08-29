@@ -4,12 +4,15 @@ var mysql = require("mysql");
 var connection = null;
 if(typeof process.env.JAWSDB_URL === 'undefined'){
   connection = mysql.createConnection({
-        host: "localhost", //change host if needed
-        port: 3306, //change port number if needed
-        user: "root", //enter in your mysql username
-        password: "Iloverocky21!", //enter your password
-        database: "burgers_db"
-    }); 
+    host: "localhost",
+    port: 3306,
+    user: "root",
+    password: "Iloverocky21!",
+    database: "burgers_db"
+  });
+}
+else{
+  connection = mysql.createConnection(process.env.JAWSDB_URL);
 }
 // Make connection.
 connection.connect(function(err) {
