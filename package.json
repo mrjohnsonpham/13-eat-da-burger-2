@@ -1,0 +1,56 @@
+{
+  "name": "13-eat-da-burger-2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrjohnsonpham/13-eat-da-burger-2.git"
+  },
+  "keywords": [
+    "Burger",
+    "app",
+    "that",
+    "you",
+    "can",
+    "create",
+    "to",
+    "devour",
+    "and",
+    "undevour.",
+    "If",
+    "you",
+    "no",
+    "longer",
+    "wish",
+    "to",
+    "have",
+    "that",
+    "burger",
+    "on",
+    "your",
+    "menu",
+    "you",
+    "can",
+    "simply",
+    "delete",
+    "it",
+    "as",
+    "well."
+  ],
+  "author": "Johnson Pham",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mrjohnsonpham/13-eat-da-burger-2/issues"
+  },
+  "homepage": "https://github.com/mrjohnsonpham/13-eat-da-burger-2#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^5.1.0",
+    "mysql2": "^2.1.0"
+  }
+}
