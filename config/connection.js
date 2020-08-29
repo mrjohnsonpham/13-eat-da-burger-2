@@ -9,7 +9,7 @@ if(typeof process.env.JAWSDB_URL === 'undefined'){
         user: "root", //enter in your mysql username
         password: "Iloverocky21!", //enter your password
         database: "burgers_db"
-    });
+    }); 
 }
 // Make connection.
 connection.connect(function(err) {
