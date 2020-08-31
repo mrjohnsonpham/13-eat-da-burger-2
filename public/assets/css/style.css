@@ -3,7 +3,7 @@ html {
 }
 
 body {
-    /* background-image: url("../Images/background.jpg"); */
+ background-image: url("../Images/granitewallpaper.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom;
@@ -15,7 +15,7 @@ body {
 li {
     padding: 5px;
     margin: 5px;
-    background: black;
+    /* background: white; */
     font-family: 'Bebas Neue', cursive;
 }
 
@@ -45,11 +45,13 @@ ul {
     text-align: center;
     padding: 10px;
     color: black;
+  
 }
 
 #cardHeader {
     color: black;
     font-family: 'Bebas Neue', cursive;
+    
 }
 
 h1 {
@@ -71,12 +73,12 @@ h1 {
 h2 {
     text-align: center;
     font-family: 'Bebas Neue', cursive;
+    
 }
 
 
-
 .listHeaders {
-    background: black;
+    background: white;
     border: 5px groove black;
 }
 
@@ -87,3 +89,4 @@ h2 {
 .btn-primary {
     font-family: 'Bebas Neue', cursive;
 }
+
